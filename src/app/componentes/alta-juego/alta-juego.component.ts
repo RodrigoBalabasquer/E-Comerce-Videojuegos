@@ -37,11 +37,11 @@ export class AltaJuegoComponent implements OnInit {
   validation_messages = {
     titulo: {
       required: "Este campo es requerido",
-      minlength: "Ingresá un usuario mayor a 5 caracteres",
+      minlength: "Ingresá un titulo mayor a 5 caracteres",
     },
     descripcion: {
       required: "Este campo es requerido",
-      minlength: "Ingresá una contraseña mayor a 10 caracteres",
+      minlength: "Ingresá una descripción mayor a 10 caracteres",
     },
     precio: {
       required: "Este campo es requerido",
